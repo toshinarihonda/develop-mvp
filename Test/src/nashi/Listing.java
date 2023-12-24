@@ -11,7 +11,7 @@ public class Listing {
 			ArrayList<String> names = new ArrayList<String>();
 			names.add("白川郷");
 			names.add("銀山温泉");
-			names.add(1);//例外発生
+			names.add(1);//例外発生しました。
 			Iterator<String> it = names.iterator();
 			while (it.hasNext()) {
 				String e = it.next();
